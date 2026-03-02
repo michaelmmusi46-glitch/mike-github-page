@@ -49,10 +49,52 @@ footer {
     width: 100%;
 }
 img {
-    border: 5px solid #4CAF50;
+    border: 5px solid #cc6d00;
     border-radius: 10px;
 }
 main a[href^="mailto:"] {
     color: #ff5722;
     font-weight: bold;
+}
+
+Main h1 {
+    font-size:40px;
+    font-weight: bolder;
+    box-align: center;
+}
+Main h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.store-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+    gap: 20px;
+}
+
+item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+.item img {
+    width: 90%;
+    height: auto;
+}
+.item p {
+    margin: 10px 0;
+}
+.order-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #cc6d00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.order-btn:hover {
+    background-color:  #cc6d00;
 }
